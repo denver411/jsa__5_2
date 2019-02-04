@@ -22,8 +22,6 @@ const hero = {
   ],
 };
 
-getAttackTypes(hero);
-
 test('Поле описание имеет значение из входящих данных', () => {
   expect(getAttackTypes(hero)[0].description).toBe('Двойной выстрел наносит двойной урон');
 });
